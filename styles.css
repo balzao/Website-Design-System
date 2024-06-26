@@ -1,6 +1,67 @@
-h1 {
-  font-family: "Source Code Pro", monospace;
+body {
+  margin: 25px 190px;
+}
+
+
+h1,h2 {
+  font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200px;
+  font-weight: bold;
   font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+.sezione {
+  height: auto;
+  width: auto;
+  border-width: 2px;
+  border-style: solid;
+  border-color: grey;
+  padding: 7px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.boxes {
+  display: inline-block;
+  text-align: center;
+  line-height: 1,5em;
+  height: 100px;
+  width: 460px;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+  margin: 25px 1px;
+}
+
+
+#coolblue {
+  background-color: #2d5dcc;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#pink {
+  background-color: #d957d9;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#mintgreen {
+  background-color: #4fe0b0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#beige {
+  background-color: #efd9ca;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
